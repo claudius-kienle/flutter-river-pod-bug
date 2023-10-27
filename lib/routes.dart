@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod_bug/extra_class.dart';
-import 'package:flutter_riverpod_bug/extra_page.dart';
+import 'package:flutter_riverpod_bug/main.dart';
 import 'package:flutter_riverpod_bug/main_page.dart';
 import 'package:go_router/go_router.dart';
 

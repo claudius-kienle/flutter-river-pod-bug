@@ -1,8 +1,5 @@
-import 'package:freezed_annotation/freezed_annotation.dart';
+class ExtraClass {
+  const ExtraClass({required this.content});
 
-part 'extra_class.freezed.dart';
-
-@freezed
-class ExtraClass with _$ExtraClass {
-  const factory ExtraClass({required String content}) = _ExtraClass;
+  final String content;
 }
